@@ -43,4 +43,21 @@ and switching clefs.
 | space below 1st | D           | E         | F        |
 | line below 1st  | C           | D         | E        |
 
+(Or, under some conditions easier to read:)
 
+<pre>
+          TREBLE  ALTO      BASS
+         -A-      -B-       -C-
+          G        A         B
+----------F--------G---------A----------
+          E        F         G
+----------D--------E---------F----------
+          C        D         E
+----------B--------C---------D----------
+          A        B         C
+----------G--------A---------B----------
+          F        G         A
+----------E--------F---------G----------
+          D        E         F
+         -C-      -D-       -E-
+</pre>
