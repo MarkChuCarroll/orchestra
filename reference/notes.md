@@ -20,28 +20,27 @@ and switching clefs.
 | F#          | G#   |  D#  |  C#  |
 | G           | A    |  E   |  D   |
 | G#          | A#   |  F   |  D#  |
-|-------------|------|------|------|
 
 
 
 
-## clefs
+## Clefs
 
-|-----------------|----------|-------|------|
-| Position        | Treble   | Alto  | Bass |
-|-----------------|----------|-------|------|
-| line above 5th  | A        | B     | C    |
-| space over 5th  | G        | A     | B    |
-| 5th line        | F        | G     | A    |
-| 4th space       | E        | F     | G    |
-| 4th line        | D        | E     | F    |
-| 3rd space       | C        | D     | E    |
-| 3rd line        | B        | C     | D    |
-| 2nd space       | A        | B     | C    |
-| 2nd line        | G        | A     | B    |
-| 1st space       | F        | G     | A    |
-| 1st line        | E        | F     | G    |
-| space below 1st | D        | E     | F    |
-| line below 1st  | C        | D     | E    |
-+-----------------|----------|-------|------|
+
+| **Position**    | **Treble**  | **Alto**  | **Bass** |
+| :-----------:   | :---------: | :-------: | :------: |
+| line above 5th  | A           | B         | C        |
+| space over 5th  | G           | A         | B        |
+| 5th line        | F           | G         | A        |
+| 4th space       | E           | F         | G        |
+| 4th line        | D           | E         | F        |
+| 3rd space       | C           | D         | E        |
+| 3rd line        | B           | C         | D        |
+| 2nd space       | A           | B         | C        |
+| 2nd line        | G           | A         | B        |
+| 1st space       | F           | G         | A        |
+| 1st line        | E           | F         | G        |
+| space below 1st | D           | E         | F        |
+| line below 1st  | C           | D         | E        |
+
 
