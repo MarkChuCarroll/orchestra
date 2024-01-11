@@ -110,7 +110,6 @@
     } \relative {
       \key g \major
       \clef alto
-
     }
     \new Staff \with {
       instrumentName = "Cello"

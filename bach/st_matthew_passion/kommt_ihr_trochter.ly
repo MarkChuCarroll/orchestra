@@ -214,7 +214,7 @@
 
   >>
 }
-\pageBreak %{page 3 original %}
+\pageBreak %{page 3 in original score, measure 7 %}
 { \time 12/8
 
 
@@ -648,3 +648,194 @@
 
   >>
 }
+\pageBreak
+
+{ \time 12/8
+  %{ Original page 7, measure  19 %}
+ <<
+    \new Staff \with {
+      instrumentName = "Flute1"
+    } \relative {
+      \key g \major
+      %{TODO: carry tie %}
+      b'4. ais4. b2. |
+      cis2. dis4 fis8 e4.~ |
+      e4. dis4. d2. |
+
+      c4. cis4. d4. dis4. |
+      e4. c'4.~ c8 b8 a8 b4.~ |
+       b8 a8 g8 fis8 dis8 e8~ e8 g8 fis8 e8 dis8 e8~ |
+
+    }
+    \new Staff \with {
+      instrumentName = "Flute2"
+    } \relative {
+      \key g \major
+      %{TODO: carry tie %}
+      b'4. ais4. b2. |
+      cis2. dis4 fis8 e4.~ |
+      e4. dis4. d2. |
+
+      c4. cis4. d4. dis4. |
+      e4. c'4.~ c8 b8 a8 b4.~ |
+       b8 a8 g8 fis8 dis8 e8~ e8 g8 fis8 e8 dis8 e8~ |
+
+    }
+
+    \new Staff \with {
+      instrumentName = "Oboe1"
+    } \relative {
+      \key g \major
+            %{TODO: carry tie %}
+      e''4. cis4. b4 a8 g4.~   |
+      g4 cis8 fis,  2. b4. |
+      a4. fis4. b2.~ |
+
+      b4 e,8 a2. fis4 fis'8 |
+      g4.~ g8 fis8 e8 fis4.~ fis8 e8 dis8 |
+      e1.~ |
+    }
+   \new Staff \with {
+      instrumentName = "Oboe2"
+    } \relative {
+            %{TODO: carry tie %}
+      \key g \major
+      g'4 b8 fis4 e8 dis4. e4.~ |
+      e4.~ e4 cis8 fis4 dis8 e4 g8 |
+      c4. b4. e,4 gis8 b4 e8 |
+
+      e,4. e'4. d4. b4.~ |
+      b4. a2. g4.~ |
+      g8 c8 b8 a8 fis8 g8~ g8 b8 a8 g8 fis8 g8 |
+
+    }
+    \new Staff \with {
+      instrumentName = "AltSax"
+    } \relative {
+      \key b \major
+      R8*12 | R8*12 | R8*12 |
+    }
+
+    \new Staff \with {
+      instrumentName = "Cl1"
+    } \relative {
+      \key a \major
+      a''4 cis,8 bis4. cis4. cis8 dis8 e8 |
+      dis4 dis8 dis8 eis8 fis8 eis8 dis8 cis8 fis4.~ |
+      fis8 eis8 dis8 eis8 cis8 d8 e8 fis8 g8~ g8 fis8 e8 |
+
+    }
+    \new Staff \with {
+      instrumentName = "Cl2"
+    } \relative {
+      \key a \major
+      %{  TODO:carry over tie %}
+      cis''8 bis8 ais8 bis8 gis8 a8 b4 b8 a8 b8 gis8 |
+      a8 gis8 fis8 gis4.~ gis8 fis8 eis8 fis8 gis8 a8 |
+      b4.~ b8 a8 gis8 cis8 d8 e8~ e8 d8 cis8~ |
+    }
+    \new Staff \with {
+      instrumentName = "BaCl"
+    } \relative {
+      \key d \major
+      R8*12 | R8*12 | R8*12 |
+    }
+
+    \new Staff \with {
+      instrumentName = "Horn"
+    } \relative {
+      \key d \major
+      gis'4 gis8 gis8 ais8 b8 ais8 gis8 fis8 b4.~ |
+      b8 a8 gis8 cis8 eis,8 fis8 g8 e8 fis8 fis4 b8 |
+      gis8 fis8 e8 cis'4 cis8 b4 fis8 dis4 b8 |
+    }
+
+    \new Staff \with {
+      instrumentName = "Tr1"
+    } \relative {
+      \key a \major
+      R8*12 | R8*12 | R8*12 |
+    }
+    \new Staff \with {
+      instrumentName = "Tr2"
+    } \relative {
+      \key d \major
+      R8*12 | R8*12 | R8*12 |
+    }
+    \new Staff \with {
+      instrumentName = "Bar"
+    } \relative {
+      \key d \major
+      R8*12 | R8*12 | R8*12 |
+    }
+    \new Staff \with {
+      instrumentName = "Bassoon"
+    } \relative {
+      \clef bass
+      \key d \major
+      e8 d8 e8 fis4 fis8 a,4 a8 b'4.~ |
+      b8 ais8 gis8 ais8 fis8 g8 a4 a8 g8 fis8  e8 |
+      fis4.~ fis8 g8 a8 gis4.~ gis8 a8 b8 |
+
+    }
+    \new Staff \with {
+      instrumentName = "Tromb"
+    } \relative {
+      \key d \major
+      R8*12 | R8*12 | R8*12 |
+    }
+
+    \new Staff \with {
+      instrumentName = "Violin1"
+    } \relative {
+      \key g \major
+      g''4 e8 cis4. b4.~ b8 c8 d8 |
+      cis4.~ cis8 dis8 e8 dis8 cis8 b8 e4.~ |
+      e8 dis8 cis8 dis8 b8 c8 d8 e8 f8~ f8 e8 d8 |
+    }
+    \new Staff \with {
+      instrumentName = "Violin2"
+    } \relative {
+      \key g \major
+      %{ TODO: carry in tie %}
+      b'8 ais8 gis8 ais8 fis8 g8 a4. g8 a8 fis8 |
+      g8 fis8 e8  fis4.~ fis8 e8 dis8 e8 fis8 g8 |
+      a4.~ a8 g8 fis8 b8 c8 d8~ d8 c8 b8~ |
+    }
+    \new Staff \with {
+      instrumentName = "Viola"
+    } \relative {
+      \key g \major
+      \clef alto
+
+      cis'4.~ cis8 dis8 e8 dis8 c8 b8 e4.~ |
+      e8 d8 cis8 fis8 ais,8 b8 c8 a8 b8 b4 e8 |
+      c8 b8 a8 fis'4. e4 b8 gis4 e8 |
+
+
+    }
+    \new Staff \with {
+      instrumentName = "Cello"
+    } \relative {
+      \clef bass
+      \key g \major
+
+      e,4 e8 fis4 fis8 b4 b8 b4 b8 |
+      b4 b8 ais4 ais8 a4 a8 g4 g8 |
+      fis4 fis8 b4 b8 gis4 gis8 e4 e8 |
+    }
+    \new Staff \with {
+      instrumentName = "Bass"
+    } \relative {
+      \clef bass
+      \key g \major
+      e,4. fis4. b4. b4. |
+      b4. ais4. a4. g4. |
+      fis4. b4. gis4. e4. |
+    }
+
+  >>
+}
+
+
+
